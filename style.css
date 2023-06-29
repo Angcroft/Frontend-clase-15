@@ -1,0 +1,147 @@
+/*  Estilo general de la página */
+.root 
+{
+    --bs-body-font-family: "Poppins", sans-serif;
+}
+[data-bs-theme="light"] 
+{
+    --bs-link-color-rgb: 100, 0, 100;
+    --bs-body-bg: #f1f2ff;
+}
+[data-bs-theme="dark"] 
+{
+    --bs-link-color-rgb: 200, 100, 200;
+    --bs-body-bg: #ffffff;
+}
+.bd-mode-toggle 
+{
+    z-index: 1500;
+}
+td span 
+{
+    background: gray;
+    color: white;
+    padding: 0 0.175rem;
+    font-weight: bolder;
+}
+
+/* Estilo del encabezado o nav */
+.navbar 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar li 
+{
+    float: left;
+}
+.navbar li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover 
+{
+    background-color: #111;
+}
+.navbar-custom 
+{
+    background-color: #333;
+}
+.navbar-custom .navbar-brand 
+{
+    font-weight: bold;
+}
+.navbar-custom .nav-link 
+{
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+.navbar-custom .nav-link:hover 
+{
+    background-color: #111;
+}
+.navbar-custom .active 
+{
+    background-color: #111;
+}
+
+/* Estilos personalizados para el main */
+#primercontenido 
+{
+    background-color: #ff6969;
+    padding: 20px;
+}
+#primercontenido .image-container 
+{
+    text-align: right;
+}
+#primercontenido img 
+{
+    max-width: 100%;
+    height: auto;
+}
+#primercontenido .text-container 
+{
+    background-color: #ffd3b0;
+    padding: 20px;
+    border-radius: 30px;
+}
+#botonempezar 
+{
+    background-color: #ff6969;
+    color: white;
+}
+#botonempezar:hover 
+{
+    background-color: #111;
+}
+
+/*  Una especificación del carrusel*/
+.carousel-item h3,
+.carousel-item p 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*Personalización del footer*/
+footer 
+{
+    background-color: #f8f8f8;
+    padding: 30px 0;
+}
+.footer-top 
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.footer-top h4 
+{
+    margin-bottom: 15px;
+}
+.footer-top ul 
+{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-top ul li 
+{
+    margin-bottom: 10px;
+}
+.footer-top ul li a 
+{
+    color: #333;
+    text-decoration: none;
+}
+.footer-top ul li a:hover 
+{
+    color: #007bff;
+}
